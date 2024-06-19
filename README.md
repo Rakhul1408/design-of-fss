@@ -39,19 +39,16 @@ The project includes:
   - **Thickness of Patch**: 0.035 mm
 
 ## Design Equations
-- Wavelength, 𝜆:
-  \[
-  \lambda = \frac{C}{f \times \sqrt{\epsilon}}
-  \]
+- Wavelength,
+  𝜆=𝐶⁄((𝑓×√𝜀) )
   where:
-  - \( C \) = speed of light (3 x 10^8 m/s)
-  - \( f \) = frequency (3.6 GHz)
-  - \( \epsilon \) = relative permittivity (3.5 for Polyimide)
+  -  C  = speed of light (3 x 10^8 m/s)
+  -  f  = frequency (3.6 GHz)
+  -  epsilon  = relative permittivity (3.5 for Polyimide)
 
   For this design:
-  \[
-  \lambda = \frac{3 \times 10^8}{3.6 \times 10^9 \times \sqrt{3.5}} \approx 0.0155 \, \text{m}
-  \]
+  𝜆=𝐶⁄((𝑓×√𝜀) )
+
 
 ## Simulation and Design Tools
 - **ADS**: For unit cell design.
