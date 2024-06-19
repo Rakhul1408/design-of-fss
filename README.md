@@ -41,12 +41,17 @@ The project includes:
 ## Design Equations
 - Wavelength, 𝜆:
   \[
-  \lambda = \frac{C}{f \times \sqrt{\epsilon}} = 0.0155 \, \text{m}
+  \lambda = \frac{C}{f \times \sqrt{\epsilon}}
   \]
   where:
   - \( C \) = speed of light (3 x 10^8 m/s)
   - \( f \) = frequency (3.6 GHz)
   - \( \epsilon \) = relative permittivity (3.5 for Polyimide)
+
+  For this design:
+  \[
+  \lambda = \frac{3 \times 10^8}{3.6 \times 10^9 \times \sqrt{3.5}} \approx 0.0155 \, \text{m}
+  \]
 
 ## Simulation and Design Tools
 - **ADS**: For unit cell design.
