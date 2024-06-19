@@ -66,4 +66,4 @@ The project includes:
 ## How to Use
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/fss-design-3.6ghz.git
+   git clone https://github.com/Rakhul1408/fss-design-3.6ghz.git
